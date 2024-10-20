@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://wirelesscs.com/storage/app/public/TouL3rnXxq34avyb9kJe11OeV404yj-metaQnJvb2tseW4tVGVjaC05LVdlYi1mZy5qcGc=-.jpg"); 
+  background-image: url("https://images.squarespace-cdn.com/content/v1/59aec48e9f7456bae98b8609/1524087106257-BXS1HX2LY49O068VVKNK/bths-entrance-stairs.JPG?format=500w"); 
   background-size: cover;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -13,31 +13,30 @@ body {
 }
 
 .container {
-  background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent to see the background */
+  background-color: white; 
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
-  max-width: 500px; /* Prevent container from stretching too wide */
+  max-width: 500px; 
   width: 90%;
   text-align: center;
   border: 2px solid #333;
   margin: auto;
-  color: #333; /* Text color */
+  color: #333; 
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 40px;
   margin-bottom: 15px;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 50px;
   margin: 10px 0;
 }
 
 h3 {
   margin-top: 20px;
-  font-size: 1.2rem;
+  font-size: 20px;
 }
 
 button {
@@ -53,30 +52,26 @@ button {
 }
 
 #increment-btn {
-  background-color: #007ACC;
+  background-color: blue;
 }
 
 #save-btn {
-  background-color: #FF6600;
+  background-color: orange;
 }
 
-button:hover {
-  opacity: 0.9; /* Slight hover effect */
-}
 
-/* Media query for smaller screens */
 @media (max-width: 600px) {
   button {
       display: block;
-      width: 100%; /* Make buttons take full width on smaller screens */
+      width: 100%; 
       margin: 10px auto;
   }
 
   .container {
-      width: 95%; /* Adjust container width for small screens */
+      width: 95%; 
   }
 
   h2 {
-      font-size: 2.5rem; /* Adjust font size for small screens */
+      font-size: 2.5px; 
   }
 }
